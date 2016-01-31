@@ -22,15 +22,19 @@
 
     <!-- This should really go into a config xml, but whoever wrote this app is an idiot, so follow their pattern -->
     <bool name="swipe_right_deletes_conversation_default" translatable="false">false</bool>
-    
+
     <string name="unicode_stripping_pref_key" translatable="false">unicode_stripping_pref_key</string>
 
     <!-- Unicode stripping constants -->
     <string name="unicode_stripping_leave_intact_value" translatable="false">unicode_intact</string>
     <string name="unicode_stripping_non_encodable_value" translatable="false">unicode_non_encodable</string>
     <string name="unicode_stripping_all_value" translatable="false">unicode_all</string>
-    
+
     <!-- Data enabling for MMS -->
     <bool name="enable_data_for_mms" translatable="false">false</bool>
     <string name="mms_auto_enable_data_pref_key" translatable="false">mms_auto_enable_data</string>
+
+    <!-- Preference keys for user-visible settings -->
+    <!-- Application-wide settings -->
+    <bool name="show_emoticons_pref_default" translatable="false">true</bool>
 </resources>
